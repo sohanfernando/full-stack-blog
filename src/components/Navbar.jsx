@@ -19,7 +19,7 @@ const Navbar = () => {
                 {open ? "X" : "≡"}
             </div>
             {/* MOBILE LINK LIST */}
-            <div className='w-full h-screen flex flex-col items-center justify-center absolute top-16 bg-red'>
+            <div className={`w-full h-screen flex flex-col items-center justify-center absolute top-16 bg-red-700 ${open ? "-right-0" : "-right-[100%]"}`}>
                 menu
             </div>
         </div>
